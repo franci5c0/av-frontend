@@ -137,7 +137,7 @@ hr{
     /*Aumenta o tamanho da fonte*/
     font-size: 26px;/
 }
-.footer-container{
+.list-container{
     /*Abre a disponibilidade de espaço no site*/
     display: flex;
     /*Alinha os objetos no centro*/
@@ -441,4 +441,12 @@ margin: 24px auto; /*cima esquer/ direita baixo*/
 
 .purchase-button:hover {
 filter: brightness(0.8); /*diminui o brilho com esta propriedade*/
+}
+
+
+@media (max-width: 697px) {
+.main-footer-container {   
+flex-direction: columns;
+}
+
 }
