@@ -310,6 +310,9 @@ padding-bottom:10px;
 .purchase-button:hover {
     filter: brightness(0.8);
 }
+
+
+
 @media (max-width: 725px) {
     .main-footer-container {
         flex-direction: column;
@@ -390,7 +393,7 @@ font-size: 18px;
 font-size: 19px;
 font-family: "Madimi One", cursive;
 }
-}
+
 
 .tittle-median {
 font-size: 26px;
@@ -410,7 +413,7 @@ margin-right: auto;
     width: 315px;
 }
 
-
+}
 
 
 
@@ -519,5 +522,7 @@ padding-right: 10px;
    margin-left: auto;
    margin-right: auto;
     }
+
+}
 
 }
